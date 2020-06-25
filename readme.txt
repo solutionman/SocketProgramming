@@ -35,9 +35,9 @@ run (server already should be running):
 
 version 2:
 
-gcc server2.c -0 server2
+gcc server2.c -o server2
 
-gcc client2.c -0 client2
+gcc client2.c -o client2
 
 
 ./server2

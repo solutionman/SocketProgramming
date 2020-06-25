@@ -31,9 +31,18 @@ run (server already should be running):
 ./client 127.0.0.1
 
 
+######################################
+
+version 2:
+
+gcc server2.c -0 server2
+
+gcc client2.c -0 client2
 
 
+./server2
 
+./client2 127.0.0.1 5001
 
 
 
